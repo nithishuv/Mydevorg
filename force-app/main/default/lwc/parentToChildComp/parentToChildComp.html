@@ -1,0 +1,12 @@
+<template>
+    <lightning-card  variant="Narrow"  title="Parent Component" icon-name="standard:account">
+        <lightning-button 
+          variant="brand"
+          label="Parent button" 
+          onclick={handleClick} 
+        ></lightning-button>
+        <c-child-to-parent-comp childvar={parentvar}></c-child-to-parent-comp>
+        <c-child-to-parent-comp onmyfirstcusteve={handleEvent}></c-child-to-parent-comp>
+        parent Component: {parentvar1}
+    </lightning-card>
+</template>

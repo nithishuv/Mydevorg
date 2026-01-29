@@ -1,0 +1,12 @@
+<template>
+    <lightning-card  variant="Narrow"  title="Wire LWC" icon-name="standard:account">
+        <lightning-datatable
+            key-field="id"
+            data={getdata}
+            show-row-number-column
+            hide-checkbox-column
+            columns={columnsList}
+            >
+        </lightning-datatable>
+    </lightning-card>
+</template>
