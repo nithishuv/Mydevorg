@@ -1,0 +1,8 @@
+<template>
+    <lightning-card  variant="Narrow"  title="Parent Component" icon-name="standard:account">
+        <lightning-button variant="brand" label="Send Data to child" title="titleName" onclick={handleClick}></lightning-button>
+        <c-child-parent-prac-comp childvar={parentvar}></c-child-parent-prac-comp>
+        <c-child-parent-prac-comp oncuseve = {handleEvent}></c-child-parent-prac-comp>
+        Parent Component: {parentvar2}
+    </lightning-card>
+</template>
