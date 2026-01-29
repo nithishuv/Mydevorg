@@ -1,0 +1,11 @@
+<template>
+    <lightning-card  variant="Narrow"  title="Toast and nav with Record Form" icon-name="standard:account">
+        <lightning-record-form 
+            object-api-name={account_obj}
+            onsuccess={successHandler}
+            fields={acc_fields}
+            record-id={recordId}
+        ></lightning-record-form>
+        
+    </lightning-card>
+</template>
